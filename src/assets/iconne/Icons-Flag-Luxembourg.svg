@@ -1,0 +1,7 @@
+<svg id="Icons_Flag_Luxembourg" data-name="Icons/Flag/Luxembourg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <circle id="Oval" cx="8" cy="8" r="8" transform="translate(0 0)" fill="#f0f0f0"/>
+    <path id="Path" d="M7.5,0A8,8,0,0,0,0,5.217H15A8,8,0,0,0,7.5,0Z" transform="translate(0.498)" fill="#d80027"/>
+    <path id="Path-2" data-name="Path" d="M7.5,5.217A8,8,0,0,0,15,0H0A8,8,0,0,0,7.5,5.217Z" transform="translate(0.498 10.783)" fill="#338af3"/>
+  </g>
+</svg>

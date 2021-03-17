@@ -7,6 +7,30 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then( m => m.AuthModule)
+  },
+  {
+    path: 'chooseCurrencies',
+    loadChildren: () => import('./Currencies/Currencies.module').then( m => m.CurrenciesModule)
+  },
+
+  {
+    path: 'notifications',
+    loadChildren: () => import('./Notification/Notification.module').then( m => m.NotificationModule)
+  },
+
+  {
+    path: 'welcome',
+    loadChildren: () => import('./Welcome/Welcome.module').then( m => m.WelcomeModule)
+  },
+
+  {
+    path: 'transaction',
+    loadChildren: () => import('./Transaction/Transaction.module').then( m => m.TransactionModule)
+  },
+  
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'

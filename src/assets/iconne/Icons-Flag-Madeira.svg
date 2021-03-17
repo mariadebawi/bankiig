@@ -1,0 +1,11 @@
+<svg id="Icons_Flag_Madeira" data-name="Icons/Flag/Madeira" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <path id="Path" d="M7.652.794A8.017,8.017,0,0,0,.7.794L0,8l.7,7.206a8.017,8.017,0,0,0,6.957,0L8.348,8Z" transform="translate(3.826)" fill="#ffda44"/>
+    <g id="Group-2" data-name="Group" transform="translate(0 0.781)">
+      <path id="Path-2" data-name="Path" d="M4.522,0a8,8,0,0,0,0,14.412Z" transform="translate(0 0.013)" fill="#0052b4"/>
+      <path id="Path-3" data-name="Path" d="M0,0V14.412A8,8,0,0,0,4.522,7.206,8,8,0,0,0,0,0Z" transform="translate(11.478 0.013)" fill="#0052b4"/>
+    </g>
+    <path id="Path-4" data-name="Path" d="M5.043,3.478l.522.7V1.391l-.522.7H3.478V.522L4.174,0H1.391l.7.522V2.087H.522L0,1.391V4.174l.522-.7H2.087V5.043l-.7.522H4.174l-.7-.522V3.478Z" transform="translate(5.217 5.217)" fill="#d80027"/>
+    <path id="Path-5" data-name="Path" d="M4.174,1.739H2.435V0h-.7V1.739H0v.7H1.739V4.174h.7V2.435H4.174Z" transform="translate(5.913 5.913)" fill="#f0f0f0"/>
+  </g>
+</svg>

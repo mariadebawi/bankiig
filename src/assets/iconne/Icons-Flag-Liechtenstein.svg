@@ -1,0 +1,7 @@
+<svg id="Icons_Flag_Liechtenstein" data-name="Icons/Flag/Liechtenstein" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <path id="Path" d="M16,1.043a8,8,0,0,1-16,0C.348,1.043,8,0,8,0Z" transform="translate(0 6.957)" fill="#d80027"/>
+    <path id="Path-2" data-name="Path" d="M0,8A8,8,0,0,1,16,8" fill="#0052b4"/>
+    <path id="Path-3" data-name="Path" d="M4.174,2.435a1.043,1.043,0,0,0-1.739-.778V1.043h.348v-.7H2.435V0h-.7V.348H1.391v.7h.348v.614A1.043,1.043,0,1,0,.348,3.212v.614H3.826V3.212A1.041,1.041,0,0,0,4.174,2.435Z" transform="translate(1.739 3.13)" fill="#ffda44"/>
+  </g>
+</svg>

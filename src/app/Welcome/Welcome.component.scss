@@ -1,0 +1,62 @@
+
+    ion-toolbar{
+        --background: transparent;
+    }
+    ion-toolbar:nth-child(1){
+        ion-img  {
+            height: 12px;
+        }
+
+    }
+
+    ion-toolbar:nth-child(2){
+        padding: 0 20px;
+        ion-buttons{
+            ion-img  {
+                height: 16px;
+            }
+        }
+
+    }
+
+    ion-tab-bar{
+        --background: transparent;
+        --border:none ;
+        padding: 0 10px 20px;
+
+        ion-button{
+            --background: #3756DF;
+            width: 132px;
+            height: 35px;
+            font-family: 'SF Pro Display';
+            font-size: 15px;
+            font-weight: normal !important;
+            color: #fff;
+          
+          
+          }
+    }
+
+
+
+    ion-content {
+        --ion-background-color: #F6F8FB;
+
+        ion-slide{
+            .content{
+                --background: #FFFFFF;
+                box-shadow: 0 3px 15px rgba($color: #3756DF, $alpha: 0.15);
+                width: 90px;
+                height: 120px;
+                border-radius: 15px;
+
+                .icon{
+                    ion-img{
+                        height: 18px;
+                    }
+                    
+                }
+                
+            }
+        }
+    }

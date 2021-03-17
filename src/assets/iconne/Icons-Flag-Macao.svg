@@ -1,0 +1,17 @@
+<svg id="Icons_Flag_Macao" data-name="Icons/Flag/Macao" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <circle id="Oval" cx="8" cy="8" r="8" transform="translate(0 0)" fill="#496e2d"/>
+    <path id="Path" d="M4.522,2.335a1.638,1.638,0,0,0-.556.1,1.7,1.7,0,0,0,.158-.7A2.542,2.542,0,0,0,3.13,0a2.542,2.542,0,0,0-.994,1.739,1.7,1.7,0,0,0,.158.7,1.64,1.64,0,0,0-.556-.1A2.542,2.542,0,0,0,0,3.329a2.542,2.542,0,0,0,1.739.994A2.163,2.163,0,0,0,3.13,3.7a2.163,2.163,0,0,0,1.391.624,2.542,2.542,0,0,0,1.739-.994A2.543,2.543,0,0,0,4.522,2.335Z" transform="translate(4.87 5.331)" fill="#f0f0f0"/>
+    <g id="Group-2" data-name="Group" transform="translate(3.594 3.125)">
+      <path id="Path-2" data-name="Path" d="M.87,0l.205.632h.664L1.2,1.022l.205.632L.87,1.263l-.537.391.205-.632L0,.632H.664Z" transform="translate(3.537 0.005)" fill="#ffda44"/>
+      <path id="Path-3" data-name="Path" d="M.35,0,.745.356,1.2.09.989.575l.395.356L.855.875l-.216.485L.528.841,0,.786.46.52Z" transform="translate(1.531 1.11)" fill="#ffda44"/>
+      <path id="Path-4" data-name="Path" d="M0,.35.52.46.786,0,.841.528l.52.111L.875.855l.056.528L.575.989.09,1.2.356.745Z" transform="translate(0.031 2.61)" fill="#ffda44"/>
+      <path id="Path-5" data-name="Path" d="M1.034,0,.639.356.179.09.395.575,0,.931.529.875l.216.485L.855.841,1.384.786.923.52Z" transform="translate(5.898 1.11)" fill="#ffda44"/>
+      <path id="Path-6" data-name="Path" d="M1.361.35.841.46.575,0,.52.528,0,.639.485.855.43,1.384.786.989l.485.216L1.005.745Z" transform="translate(7.421 2.61)" fill="#ffda44"/>
+    </g>
+    <g id="Group-3" data-name="Group" transform="translate(4.781 10.344)">
+      <path id="Path-7" data-name="Path" d="M2.1.707A3.462,3.462,0,0,0,4.2,0H0A3.462,3.462,0,0,0,2.1.707Z" transform="translate(1.118 1.386)" fill="#f0f0f0"/>
+      <path id="Path-8" data-name="Path" d="M0,0A3.478,3.478,0,0,0,.415.707H5.962A3.477,3.477,0,0,0,6.377,0Z" transform="translate(0.03 0.006)" fill="#f0f0f0"/>
+    </g>
+  </g>
+</svg>

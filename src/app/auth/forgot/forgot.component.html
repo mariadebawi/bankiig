@@ -1,0 +1,86 @@
+<ion-toolbar>
+  <ion-img src="../../assets/iconne/status.svg"></ion-img>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+
+
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <div class="icon" (click)="goBAck()">
+            <img src="../../assets/iconne/lech2.png" alt="">
+          </div>
+          <div class="title">
+            Forgot password?
+          </div>
+
+        </ion-card-subtitle>
+        <ion-card-title>Don't worry, start the password reset process by filling in the email below</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+    
+      
+        <form [formGroup]="validations_form">
+          <ion-grid>
+            <ion-row color="primary" justify-content-center>
+              <ion-col align-self-center >
+                <div padding>
+
+                  <ion-item>
+
+                    <ion-row color="primary"  justify-content-center>
+                    
+
+                      <ion-col col-12  class="col-right" >
+                        <ion-input type="number" formControlName="verifNumber"  class="number" name="number"  type="text"
+                        placeholder="   Abc@deeper.one" >
+                        </ion-input>
+                      </ion-col>
+
+                      </ion-row>
+
+                  </ion-item>
+
+                </div>
+  
+              
+                  
+               
+                <div padding>
+                  <ion-button   (click)="creatNewPass()"  class="getStart" expand="block" [class.button-disabled]="validations_form.invalid">
+                    START VERIFY
+                    <div class="icon">
+                      <img src="../../assets/iconne/Icons-Next-3.png" alt="">
+
+                    </div>
+
+                  </ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </form>
+
+    
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+
+</ion-content>
+
+
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

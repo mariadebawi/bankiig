@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319.006" height="320" viewBox="0 0 319.006 320">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.75" y1="0.963" x2="0.179" y2="0.428" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.535" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-0.497)">
+    <g id="Group">
+      <g id="Oval" transform="translate(44.224 43.863)" fill="none" stroke="#3756df" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.3">
+        <ellipse cx="115.776" cy="116.137" rx="115.776" ry="116.137" stroke="none"/>
+        <ellipse cx="115.776" cy="116.137" rx="115.276" ry="115.637" fill="none"/>
+      </g>
+      <g id="Oval-2" data-name="Oval" transform="translate(83.975 83.738)" fill="none" stroke="#3756df" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.728">
+        <ellipse cx="76.025" cy="76.262" rx="76.025" ry="76.262" stroke="none"/>
+        <ellipse cx="76.025" cy="76.262" rx="75.525" ry="75.762" fill="none"/>
+      </g>
+      <g id="Oval-3" data-name="Oval" transform="translate(0.497)" fill="none" stroke="#3756df" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.146">
+        <ellipse cx="159.503" cy="160" rx="159.503" ry="160" stroke="none"/>
+        <ellipse cx="159.503" cy="160" rx="159.003" ry="159.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Path" d="M19.932,65.377,0,42.735,59.637,0l59.637,42.735L99.023,65.377Z" transform="translate(100 94.936)" fill="#3756df"/>
+    <path id="Path-2" data-name="Path" d="M19.932,65.377,0,42.735,59.637,0l59.637,42.735L99.023,65.377Z" transform="translate(100 94.936)" fill="#213381"/>
+    <rect id="Rectangle" width="116.404" height="50.867" transform="translate(100 140.541)" fill="#3756df"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="116.404" height="50.867" transform="translate(100 140.541)" opacity="0.463"/>
+    <path id="Path-3" data-name="Path" d="M11,71.915a11,11,0,0,1-11-11V0L59.637,36.037,119.274,0V60.915a11,11,0,0,1-11,11Z" transform="translate(100 137.671)" fill="#3756df"/>
+    <path id="Path-4" data-name="Path" d="M66.247,1.687,26.473,41.777,9.755,24.927a5.683,5.683,0,0,0-8.082,0h0a5.792,5.792,0,0,0,0,8.146l21.69,21.863a4.336,4.336,0,0,0,6.165,0l44.8-45.1a5.791,5.791,0,0,0,0-8.146h0A5.681,5.681,0,0,0,66.247,1.687Z" transform="translate(128 101)" fill="#3ad29f"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(78 108)">
+      <path id="Path-5" data-name="Path" d="M.789,18.617,0,19l.091-.16-.069.022.1-.071L10.743,0l5.431,4.6,4.659,4.287L19.5,9.538,21,12.174.789,18.617Z" transform="translate(0.971 0.707)" fill="url(#linear-gradient)"/>
+      <path id="Path-6" data-name="Path" d="M15.587,0,20,4.081,0,14,10.643.392,15.587,0Z" transform="translate(0.971 5.707)" fill="#3756df"/>
+      <path id="Path-7" data-name="Path" d="M15.587,0,20,4.081,0,14,10.643.392,15.587,0Z" transform="translate(0.971 5.707)" opacity="0.2"/>
+      <path id="Path-8" data-name="Path" d="M10.047,0,0,18,15,4.288,10.047,0Z" transform="translate(1.971 1.707)" fill="#3756df"/>
+      <path id="Path-9" data-name="Path" d="M20,5.648,0,12,16.719,0,20,5.648Z" transform="translate(1.971 7.707)" fill="#3756df"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(199 41)">
+      <path id="Path-10" data-name="Path" d="M4.637,1.756,0,10.191,34,16,12.1,0,4.637,1.756Z" transform="translate(0 7)" fill="#3756df"/>
+      <path id="Path-11" data-name="Path" d="M4.637,1.756,0,10.191,34,16,12.1,0,4.637,1.756Z" transform="translate(0 7)" opacity="0.2"/>
+      <path id="Path-12" data-name="Path" d="M5.705,0,30,23,0,9.053,5.705,0Z" transform="translate(5)" fill="#3756df"/>
+      <path id="Path-13" data-name="Path" d="M0,10.366,33,11,2.193,0,0,10.366Z" transform="translate(1 12)" fill="#3756df"/>
+    </g>
+  </g>
+</svg>

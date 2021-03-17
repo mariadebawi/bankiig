@@ -1,0 +1,77 @@
+<ion-toolbar>
+  <ion-img src="../../assets/iconne/statusTime.svg"></ion-img>
+</ion-toolbar>
+
+<ion-toolbar>
+  <ion-buttons slot="secondary">
+      <ion-img src="../../assets/iconne/list.svg"></ion-img>
+  </ion-buttons>
+  <ion-buttons slot="primary">
+      <ion-img src="../../assets/iconne/search.svg"></ion-img>
+  </ion-buttons>
+</ion-toolbar>
+
+
+<ion-content [fullscreen]="true">
+
+
+  <div id="container">
+
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <div class="content">
+          <div class="icon">
+            <ion-img src="../../assets/iconne/scan.svg"></ion-img>
+          </div>
+          <div class="text">
+            Scan & Go
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="content">
+          <div class="icon">
+            <ion-img src="../../assets/iconne/scan.svg"></ion-img>
+          </div>
+          <div class="text">
+            Scan & Go
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slides>
+
+  </div>
+
+  </ion-content>
+
+
+
+
+
+
+  
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="schedule">
+        <ion-button  expand="block"  >
+          My wallets
+        </ion-button>
+
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-img src="../../assets/iconne/list2.svg"></ion-img>
+
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-img src="../../assets/iconne/list1.svg"></ion-img>
+
+      </ion-tab-button>
+  
+      <ion-tab-button tab="about">
+        <ion-img src="../../assets/iconne/notification.svg"></ion-img>
+
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>

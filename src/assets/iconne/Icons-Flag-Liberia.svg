@@ -1,0 +1,22 @@
+<svg id="Icons_Flag_Liberia" data-name="Icons/Flag/Liberia" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <g id="Group-2" data-name="Group">
+      <circle id="Oval" cx="8" cy="8" r="8" transform="translate(0 0)" fill="#f0f0f0"/>
+      <path id="Path" d="M0,1.455H12.343A8.044,8.044,0,0,0,10.772,0h-9.2A8.042,8.042,0,0,0,0,1.455Z" transform="translate(1.829 1.455)" fill="#f0f0f0"/>
+      <path id="Path-2" data-name="Path" d="M0,.727c0,.245.012.488.033.727H15.967c.022-.24.033-.482.033-.727S15.988.24,15.967,0H.033C.012.24,0,.482,0,.727Z" transform="translate(0 7.273)" fill="#f0f0f0"/>
+      <path id="Path-3" data-name="Path" d="M.571,1.454H14.826A7.947,7.947,0,0,0,15.4,0H0A7.946,7.946,0,0,0,.571,1.454Z" transform="translate(0.301 10.182)" fill="#f0f0f0"/>
+      <path id="Path-4" data-name="Path" d="M1.571,1.455h9.2A8.044,8.044,0,0,0,12.343,0H0A8.047,8.047,0,0,0,1.571,1.455Z" transform="translate(1.829 13.091)" fill="#f0f0f0"/>
+      <path id="Path-5" data-name="Path" d="M0,1.455H15.4A7.946,7.946,0,0,0,14.826,0H.571A7.948,7.948,0,0,0,0,1.455Z" transform="translate(0.301 4.364)" fill="#f0f0f0"/>
+    </g>
+    <g id="Group-3" data-name="Group" transform="translate(0.031)">
+      <path id="Path-6" data-name="Path" d="M0,1.455H8.774A7.963,7.963,0,0,0,4.174,0,8.423,8.423,0,0,0,0,1.455Z" transform="translate(3.795)" fill="#d80027"/>
+      <path id="Path-7" data-name="Path" d="M0,1.455H7.475A8.01,8.01,0,0,0,6.519,0H0Z" transform="translate(7.621 2.909)" fill="#d80027"/>
+      <path id="Path-8" data-name="Path" d="M0,1.455H8.315A7.973,7.973,0,0,0,8.047,0H0Z" transform="translate(7.621 5.818)" fill="#d80027"/>
+      <path id="Path-9" data-name="Path" d="M.268,1.455h15.4A7.97,7.97,0,0,0,15.934,0H0A7.97,7.97,0,0,0,.268,1.455Z" transform="translate(0.002 8.727)" fill="#d80027"/>
+      <path id="Path-10" data-name="Path" d="M.956,1.455H13.3A8.013,8.013,0,0,0,14.255,0H0A8.01,8.01,0,0,0,.956,1.455Z" transform="translate(0.841 11.636)" fill="#d80027"/>
+      <path id="Path-11" data-name="Path" d="M4.6,1.455A7.963,7.963,0,0,0,9.2,0H0A7.963,7.963,0,0,0,4.6,1.455Z" transform="translate(3.369 14.545)" fill="#d80027"/>
+    </g>
+    <path id="Path-12" data-name="Path" d="M.268,5.818A7.971,7.971,0,0,0,0,7.273H7.967V0A8,8,0,0,0,.268,5.818Z" transform="translate(0.033)" fill="#0052b4"/>
+    <path id="Path-13" data-name="Path" d="M2.194,0l.518,1.594H4.389L3.033,2.58,3.55,4.174,2.194,3.189.838,4.174,1.356,2.58,0,1.594H1.676Z" transform="translate(2.568 2.087)" fill="#f0f0f0"/>
+  </g>
+</svg>

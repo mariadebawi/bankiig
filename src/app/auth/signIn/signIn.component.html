@@ -1,0 +1,85 @@
+<ion-toolbar>
+  <ion-img src="../../assets/iconne/status.svg"></ion-img>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+
+
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <div class="icon" (click)="goBAck()">
+            <img src="../../assets/iconne/lech2.png" alt="">
+          </div>
+          <div class="title">
+            Sign In
+          </div>
+
+        </ion-card-subtitle>
+        <ion-card-title>Enter your sign in info to access your account</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+      
+        <form>
+          <ion-grid>
+            <ion-row color="primary" justify-content-center>
+              <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+                <div padding>
+
+                  <ion-item>
+                    <ion-input class="email" name="email" value="Hello@deeper.one" type="email"
+                      placeholder="your@email.com"></ion-input>
+                  </ion-item>
+                  <ion-item>
+                    <ion-input class="password" name="password" type="password" placeholder="  Your password">
+                    </ion-input>
+
+                    <ion-button (click)="goforgot()" fill="outline" slot="end">Forgot</ion-button>
+
+                  </ion-item>
+                </div>
+                <div padding>
+                  <ion-button class="getStart" expand="block">
+                    SIGN IN
+                    <div class="icon">
+                      <img src="../../assets/iconne/Icons-Next-3.png" alt="">
+
+                    </div>
+
+                  </ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </form>
+
+        <ion-grid>
+          <ion-row color="primary" justify-content-center>
+
+            <div class="create" >
+              Don't have an account?<a routerLink='/auth/SignUp'> Create one</a>
+            </div>
+
+          </ion-row>
+        </ion-grid>
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+
+</ion-content>
+
+
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

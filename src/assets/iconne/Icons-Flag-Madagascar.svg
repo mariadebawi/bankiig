@@ -1,0 +1,7 @@
+<svg id="Icons_Flag_Madagascar" data-name="Icons/Flag/Madagascar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <circle id="Oval" cx="8" cy="8" r="8" transform="translate(0 0)" fill="#f0f0f0"/>
+    <path id="Path" d="M0,1.964v7.5a8,8,0,0,0,10.783-7.5C10.783-2.455,0,1.964,0,1.964Z" transform="translate(5.217 6.036)" fill="#6da544"/>
+    <path id="Path-2" data-name="Path" d="M2.783,0A7.983,7.983,0,0,0,0,.5V8H10.783A8,8,0,0,0,2.783,0Z" transform="translate(5.217)" fill="#d80027"/>
+  </g>
+</svg>

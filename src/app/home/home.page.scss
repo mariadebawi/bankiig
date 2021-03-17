@@ -1,27 +1,70 @@
 #container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 566Px ;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-card{
+  background-color: transparent;
+  box-shadow: none;
+  margin: -60px 0 0 0;
+  position: relative;
+
+  ion-card-header{
+    font-weight: normal !important;
+
+    position: absolute;
+    top: 56px;
+    left: 0;
+    line-height: 2;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+  ion-card-subtitle{
+    font-family: 'SF Pro Display';
+    font-size: 15px;
+    color:  rgb(55, 86, 223);
+    text-transform: inherit;
+    font-weight: normal !important;
+
+  }
+
+  ion-card-title{
+    color: #FFF;
+    font-size:45px ;
+    font-family: 'SF Pro Display';
+    text-transform: inherit;
+    font-weight: normal !important;
+
+  }
+
+ 
+  
+
+  
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
 
-  color: #8c8c8c;
+    ion-button{
+      --background: #3756DF;
+      width: 319px;
+      height: 54px;
+      margin: 50px auto;
+      font-family: 'SF Pro Text';
+      font-size: 15px;
+      font-weight: normal !important;
+      color: #fff;
 
-  margin: 0;
-}
 
-#container a {
-  text-decoration: none;
-}
+      .icon{
+        position: absolute;
+        right: 0;
+        background: rgba($color: #000000, $alpha: 0.5);
+        border-radius: 50%;
+        height: 26px;
+        width: 26Px;
+        padding: 5px;
+        img{
+          height: 10px;
+        }
+      }
+    }

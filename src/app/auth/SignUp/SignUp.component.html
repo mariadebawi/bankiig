@@ -1,0 +1,124 @@
+<ion-toolbar>
+  <ion-img src="../../assets/iconne/status.svg"></ion-img>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+
+
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <div class="icon" (click)="goBAck()">
+            <img src="../../assets/iconne/lech2.png" alt="">
+          </div>
+          <div class="title">
+            Create new account
+          </div>
+
+        </ion-card-subtitle>
+        <ion-card-title>Enter your information to create new account</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+  
+      
+        <form [formGroup]="validations_form">
+          <ion-grid>
+            <ion-row color="primary" justify-content-center>
+              <ion-col align-self-center >
+                <div padding>
+
+                  <ion-item>
+                    <ion-input class="text" name="text" value="James Smith" type="text"
+                      placeholder="James Smith"></ion-input>
+                  </ion-item>
+                 
+                 
+                  <ion-item>
+                    <ion-input   class="email" formControlName="email" name="email" value="Hello@deeper.one" type="email"
+                      placeholder="your@email.com"></ion-input>
+                      
+                      <div class="validation-errors" >
+                        <ng-container *ngFor="let validation of validation_messages.email">
+                          <div class="error-message" *ngIf="validations_form.get('email').hasError(validation.type) && (validations_form.get('email').dirty || validations_form.get('email').touched)">
+                            {{ validation.message }}
+                          </div>
+                        </ng-container>
+                      </div>
+                  </ion-item>
+
+                 
+                  
+                 
+
+
+                  <ion-item>
+                    <ion-input [type]="passwordType" class="password" name="password"  placeholder="  Your password">
+                    </ion-input>
+
+                    <ion-button fill="outline" slot="end"  (click)="ShowPassword()"   >
+                      <span *ngIf="this.passwordType === 'password'">Show</span> 
+                      <span *ngIf="this.passwordType === 'text'">Don't Show</span>   
+                    </ion-button>
+
+                  </ion-item>
+
+
+
+                  <ion-item>
+                    <ion-input class="number" name="number" type="text" placeholder=" Invite code">
+                    </ion-input>
+
+                  </ion-item>
+
+
+                 
+
+
+
+                </div>
+                <div padding>
+                  <ion-button class="getStart" (click)="goVerify()"   expand="block">
+                    CREATE ACCOUNT
+                    <div class="icon">
+                      <img src="../../assets/iconne/Icons-Next-3.png" alt="">
+
+                    </div>
+
+                  </ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </form>
+
+        <ion-grid>
+          <ion-row color="primary" justify-content-center>
+
+            <div class="create" >
+              
+               Already have an account?<a routerLink='/auth/SignIn'>  Sign in</a>
+            </div>
+
+          </ion-row>
+        </ion-grid>
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+
+</ion-content>
+
+
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

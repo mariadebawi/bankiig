@@ -1,0 +1,89 @@
+<ion-toolbar>
+  <ion-img src="../../assets/iconne/status.svg"></ion-img>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+
+
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <div class="icon" (click)="goBAck()">
+            <img src="../../assets/iconne/lech2.png" alt="">
+          </div>
+          <div class="title">
+            You did very well! One last step
+          </div>
+
+        </ion-card-subtitle>
+        <ion-card-title>Enter your phone number to activate 2-step veryfication.</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+    
+      
+        <form [formGroup]="validations_form">
+          <ion-grid>
+            <ion-row color="primary" justify-content-center>
+              <ion-col align-self-center >
+                <div padding>
+
+                  <ion-item>
+
+                    <ion-row color="primary"  justify-content-center>
+                      <ion-col   col-3 class="col-left">
+                        <img src="../../assets/iconne/Icons-Flag-Liberia.svg" alt="" srcset="">
+                        <span>+1</span>
+                      </ion-col>
+
+                      <ion-col col-9  class="col-right" >
+                        <ion-input formControlName="verifNumber"  class="number" name="number"  type="text"
+                        placeholder="  Phone number" >
+                        </ion-input>
+                      </ion-col>
+
+                      </ion-row>
+
+                  </ion-item>
+
+                </div>
+  
+              
+                  
+               
+                <div padding>
+                  <ion-button (click)="VerifyCode()" class="getStart" expand="block" [class.button-disabled]="validations_form.invalid">
+                    START VERIFY
+                    <div class="icon">
+                      <img src="../../assets/iconne/Icons-Next-3.png" alt="">
+
+                    </div>
+
+                  </ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </form>
+
+    
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+
+</ion-content>
+
+
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+  </ion-toolbar>
+</ion-footer> -->

@@ -24,3 +24,51 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./assets/fonts/SFPro/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('./assets/fonts/SFPro/SFProDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('./assets/fonts/SFPro/SFProText-Regular.woff2') format('woff2'),
+        url('./assets/fonts/SFPro/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+app-home{
+    .swiper-pagination{
+        position: relative;
+
+        .swiper-pagination-bullet {
+            margin: 0 4px;
+            width: 6px;
+            height: 6px;
+            background: #3756DF;
+            bottom: 0px !important;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #fff !important;
+            width: 17px;
+            border-radius: 14px;
+        }
+      }
+
+      .swiper-wrapper{
+        height: 509px;
+      }
+}
+
+
+

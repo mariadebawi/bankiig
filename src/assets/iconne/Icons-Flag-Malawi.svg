@@ -1,0 +1,8 @@
+<svg id="Icons_Flag_Malawi" data-name="Icons/Flag/Malawi" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group" transform="translate(4 4)">
+    <path id="Path" d="M0,3.13A7.983,7.983,0,0,0,.5,5.913L8,6.261l7.5-.348a8.029,8.029,0,0,0,0-5.565L8,0,.5.348A7.983,7.983,0,0,0,0,3.13Z" transform="translate(0 4.87)" fill="#d80027"/>
+    <path id="Path-2" data-name="Path" d="M7.5,0A8,8,0,0,0,0,5.217H15A8,8,0,0,0,7.5,0Z" transform="translate(0.498)"/>
+    <path id="Path-3" data-name="Path" d="M15,0H0A8,8,0,0,0,7.5,5.217,8,8,0,0,0,15,0Z" transform="translate(0.498 10.783)" fill="#496e2d"/>
+    <path id="Path-4" data-name="Path" d="M4.782,2.275l-.977-.46.52-.946-1.061.2L3.13,0,2.391.788,1.652,0,1.518,1.072.457.869l.52.946L0,2.275Z" transform="translate(5.609 1.551)" fill="#d80027"/>
+  </g>
+</svg>
